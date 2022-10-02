@@ -1,6 +1,3 @@
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-
 # 二分查找
 def search(a, target):
     n = len(a)
@@ -18,4 +15,5 @@ def search(a, target):
 
 
 if __name__ == '__main__':
+    a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     print(search(a, 5))
