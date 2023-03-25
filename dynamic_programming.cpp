@@ -280,7 +280,7 @@ int editDistance(string str1, string str2) {
     return dp[n1][n2];
 }
 
-// 14. 最长括号子串，最长的格式正确的括号子串的长度
+// 14. 最长括号子串，最长的格式正确的括号子串长度
 int longestValidParentheses(string s) {
     int res = 0;
     int end = -1;
