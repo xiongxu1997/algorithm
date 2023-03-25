@@ -16,7 +16,7 @@ struct TreeNode {
 
 class Solution {
 public:
-    // 前序遍历
+    // 前序遍历，中序遍历，后续遍历
     void preorder(vector<int>&res, TreeNode*root){
         if(root == nullptr)
             return;

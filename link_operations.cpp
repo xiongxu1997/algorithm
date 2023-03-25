@@ -54,7 +54,7 @@ public:
         return before_head->next;
     }
 
-    // 合并两个排序的链表
+    // 合并两个已排好序的链表
     ListNode* Merge(ListNode* pHead1, ListNode* pHead2) {
         if(pHead1==nullptr)
             return pHead2;
